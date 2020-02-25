@@ -4,8 +4,8 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding: 0.5rem 1rem;
-  border-radius: 0;
+  padding: 1rem 1rem;
+  border-radius: 2px;
 }
 
 select.light {
