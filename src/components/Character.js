@@ -6,7 +6,7 @@ class Character extends React.Component {
   constructor(props) {
     super(props)
   }
-  render(){
+  render() {
     return(
       <div>
         <h1>Hello</h1>
