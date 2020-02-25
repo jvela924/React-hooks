@@ -25,7 +25,7 @@ const Character = props => {
   const fetchData = () => {
     console.log(
       'Sending Http request for new character with id ' +
-        this.props.selectedChar
+        props.selectedChar
     );
     setIsLoading(true)
     fetch('https://swapi.co/api/people/' + selectedChar)
